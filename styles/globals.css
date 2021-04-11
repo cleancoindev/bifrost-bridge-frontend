@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../public/fonts/Helvetica.ttf') format('truetype'),
+    url('../public/fonts/Helvetica-Bold.ttf') format('truetype'),
+    url('../public/fonts/Helvetica-BoldOblique.ttf') format('truetype');
+    src: url('../public/fonts/helvetica-light-587ebe5a59211.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container90 {
+    width: 90%;
+    margin: auto;
+}
+
+.bgBlueMoreStar {
+    background-color: #102644;
+    background-image: url('/images/bg-blue.png');
+}
+.bgBlueLessStar {
+    background-color: #102644;
+    background-image: url('/images/less-star.png');
+    background-repeat: no-repeat;
+}
+
+.footerBlock {
+    background: linear-gradient(180deg, rgba(16, 38, 68, 0.2) 0%, #102644 50.18%);
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.footerCopyright {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #FCFCFC;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+.headerBlock{
+    padding: 15px 0;
+    background: rgba(0,0,0,0.03);
+}
+.headerLogo{
+    width:119px ;
+}
+
+.headerBlock ul li a.nav-link {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.headerBlock ul li {
+    padding: 5px 0 5px 25px;
+}
+
+.btnBlue {
+    background: #1295E5;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 25px;
+}
+
+.mainHeading {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    max-width: 80%;
+    margin: auto;
+}
+
+.seprater {
+    background: linear-gradient(180deg, #C71C2C 0%, #D67F47 16.46%, #F3CE4A 31.56%, #58A360 48.75%, #4D71BB 63.85%, #3D7EF8 78.96%, #A92BD6 95.1%);
+    width: 10%;
+    height: 7px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.linkText{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #1295E5;
+}
+.leftCircleAbs{
+    position: absolute;
+    background: url(/images/left-circle.png);
+    width: 350px;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+.rightCircleAbs{
+    position: absolute;
+    right: 0;
+    background: url(/images/right-circle.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    width: 350px;
+}
+
+.modal.show {
+    display: block;
+}
+
+.modal-backdrop.show {
+    opacity: 1 !important;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+
+.connectTokenModal .modal-content {
+    background-color: #102644;
+    background: url('/images/Update_price_bg.png') no-repeat;
+    border: 1px solid #102644;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.connectTokenModalHeading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.connectTokenBorder {
+    opacity: 1;
+    border: 1px solid #eae9e9;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.connectTokenImg {
+    width: 59px;
+    height: 59px;
+    object-fit: contain;
+    margin-right: 25px;
+}
+
+.connectTokenName {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.loaderConnect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 57px;
+    vertical-align: bottom;
+}
+
+
+.connectTokenModal .close {
+    opacity: 1;
+}
+
+.connectTokenModal .modal-body {
+    padding: 15px 35px 45px;
+}
+
+.callImageHeader {
+    margin-right: 10px;
+}
+
+.headerBlock ul li {
+    padding: 5px 15px 5px 25px;
+}
+.mainBtnDesign2 {
+    background: linear-gradient(92.96deg, #D25661 0%, #E1A279 16.72%, #E1B97B 32.07%, #58A360 49.54%, #4D71BB 64.89%, #3D7EF8 80.24%, #8172BA 96.64%);
+    color: #FFFFFF;
+}
+.connectPageBtn{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 25px;
+}
+.blueBg{
+    background: #424278;
+}
+.exchangeHeading{
+    color: #1295E5;
+    font-size: 27px;
+    margin-bottom: 40px;
+}
+.tablinks {
+    background: #2A1C46;
+    color: white;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    margin: 0px 0px 10px 52px;
+}
+
+.tablinks:active{
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sideThorImg {
+    float: right;
+    margin-top: -466px;
+    margin-right: -80px;
+}

@@ -1,0 +1,59 @@
+.proposalScreen {
+    background-color: #102644;
+    background: url('/images/update_price_bg2.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    backdrop-filter: brightness(0.2);
+}
+.borderedBlock{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 15px 35px;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 75%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.keyImage{
+    padding-right: 25px;
+    width: 60px;
+}
+.keyHeading{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    box-shadow: none;
+
+}
+.keyHeading:hover{
+    color: white;
+    box-shadow: none;
+}
+
+.width100{
+    width: 100%;
+}
+.absImg{
+    position: absolute;
+    left: 250px;
+    top: 320px;
+}
+.footerImage{
+    margin-top: 30%;
+}
+.footerImage img{
+    height: 150px;
+}
