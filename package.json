@@ -8,7 +8,7 @@
     "start": "next start -p 3001"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.26.1",
     "bootstrap": "^4.6.0",
     "eos-transit": "^4.0.7",
     "eos-transit-anchorlink-provider": "^4.0.7",
